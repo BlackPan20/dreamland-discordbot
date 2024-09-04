@@ -101,6 +101,9 @@ async def on_message(msg):
     else:
         await msg.channel.send("Entschuldigung, ich verstehe den Befehl nicht. Versuche es mit /start-server, /stop-server, /server-status, /flip-coin, /roll-dice oder /fun-fact.")
 
+
+
+
 @bot.event
 async def on_ready():
     print(f'{bot.user} has connected to Discord!')
